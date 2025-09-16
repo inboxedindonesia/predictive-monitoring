@@ -10,7 +10,6 @@ const routes: RouteRecordRaw[] = [
     component: () => import('../components/layout/AppLayout.vue'),
     children: [
       { path: '', component: () => import('../pages/Dashboard.vue') },
-      { path: 'telemetry', component: () => import('../pages/Telemetry.vue') },
       { path: 'predictive', component: () => import('../pages/PredictiveMaintenance.vue') },
       { path: 'energy', component: () => import('../pages/EnergyCost.vue') },
       { path: 'assets', component: () => import('../pages/Assets.vue') },
